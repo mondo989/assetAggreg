@@ -21,8 +21,8 @@ app.on('ready', function() {
     "always-on-top": true,
     y: 2699
   })
-  searchWindow.loadUrl('file://' + __dirname + '/search.html'),
-  bottomWindow.loadUrl('file://' + __dirname + '/bottom-carousel.html')
+  searchWindow.loadUrl('file://' + __dirname + '/templates/search.html'),
+  bottomWindow.loadUrl('file://' + __dirname + '/templates/bottom-carousel.html')
 })
 
 
