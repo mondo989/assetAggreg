@@ -17,6 +17,7 @@ app.on('ready', function() {
     frame: false,
     resizable: true,
     x: 0,
+    "always-on-top": true,
     y: 2699
   })
   searchWindow.loadUrl('file://' + __dirname + '/search.html'),
