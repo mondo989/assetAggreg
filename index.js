@@ -7,7 +7,8 @@ app.on('ready', function() {
     width: 900,
     height: 600,
     resizable: false,
-    frame: false
+    frame: false,
+    "node-integration": true
   })
 
   var bottomWindow = new BrowserWindow({
@@ -22,7 +23,6 @@ app.on('ready', function() {
   })
   searchWindow.loadUrl('file://' + __dirname + '/search.html'),
   bottomWindow.loadUrl('file://' + __dirname + '/bottom-carousel.html')
-
 })
 
 
